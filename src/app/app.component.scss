@@ -1,0 +1,23 @@
+.fixed {
+  flex-grow: 0;
+  flex-shrink: 0;
+  max-width: 200px;
+  min-width: 200px;
+  width: 200px;
+}
+
+.left {
+  background-color: red;
+}
+
+.right {
+  background-color: blue;
+}
+
+.the-center {
+  background: green;
+  height: calc(min(var(--main-height), var(--main-width)));
+  max-height: calc(min(var(--main-height), var(--main-width)));
+  max-width: calc(min(var(--main-height), var(--main-width)));
+  width: calc(min(var(--main-height), var(--main-width)));
+}
